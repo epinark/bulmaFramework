@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Hello Bulma!</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <style>
+        .custom-navbar {
+            background-color: #f1f1f1;
+            height: 100px;
+            align-items: center;
+        }
+
+        .navbar-item img {
+            height: 30px;
+            width: 30px;
+            border-radius: 50%;
+            object-fit: cover;
+        }
+
+
+        .custom-rounded {
+            height: 200px;
+            width: 200px;
+            border-radius: 50%;
+            object-fit: cover;
+        }
+
+
+    </style>
+</head>
+<body>
+<nav class="navbar custom-navbar">
+    <div class="navbar-brand">
+        <a class="navbar-item" href="#">
+            <span class="icon"><i class="fab fa-facebook"></i></span>
+        </a>
+        <div class="navbar-burger" data-target="navbarMenu">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </div>
+
+    <div id="navbarMenu" class="navbar-menu">
+        <div class="navbar-start">
+            <div class="navbar-item">
+                <div class="field has-addons">
+                    <p class="control">
+                        <button class="button">
+                <span class="icon is-left">
+                  <i class="fas fa-search"></i>
+                </span>
+                        </button>
+                    </p>
+                    <p class="control">
+                        <input class="input" type="text" placeholder="Search Facebook"/>
+                    </p>
+                </div>
+            </div>
+        </div>
+          <a class="navbar-item" href="#">
+                <span class="icon"><i class="fas fa-home"></i></span>
+            </a>
+            <a class="navbar-item" href="#">
+                <span class="icon"><i class="fa-solid fa-store"></i></span>
+            </a>
+            <a class="navbar-item" href="#">
+                <span class="icon"><i class="fa-solid fa-user-group"></i></span>
+            </a>
+            <a class="navbar-item" href="#">
+                <span class="icon"><i class="fa-solid fa-gamepad"></i></span>
+            </a>
+
+        <div class="navbar-end">
+            <div class="navbar-item">
+                <a class="navbar-item" href="#">
+                    <span class="icon"><i class="fa-solid fa-bell"></i></span>
+                </a>
+                <a class="navbar-item" href="#">
+                    <img src="https://images.pexels.com/photos/91227/pexels-photo-91227.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                         alt="Profile Picture">
+                </a>
+            </div>
+        </div>
+    </div>
+</nav>
+<section class="section" style="padding-top: 80px;">
+    <div class="container">
+        <div class="columns">
+            <div class="column is-one-quarter">
+
+                <img class="custom-rounded"
+                     src="https://images.pexels.com/photos/91227/pexels-photo-91227.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                     alt="Profile Picture">
+
+                <h1 class="title">John Doe</h1>
+                <p class="subtitle">A passionate coder and tech enthusiast.</p>
+                <!-- Hobbies section -->
+                <div class="box">
+                    <h2 class="title is-4">Hobbies</h2>
+                    <ul>
+                        <li>Coding</li>
+                        <li>Reading</li>
+                        <li>Gaming</li>
+                        <li>Hiking</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="column is-three-quarters">
+                <div class="box">
+                    <h2 class="title is-4">Coding Meme of the Week</h2>
+                    <figure class="image is-4by3">
+                        <img src="https://i.pinimg.com/originals/5e/e8/21/5ee82189c374d6768bef74327839803a.jpg"
+                             alt="Coding Meme">
+                    </figure>
+                </div>
+                <div class="box">
+                    <h2 class="title is-4">About Me</h2>
+                    <p>Hi! I'm John Doe, a software developer with a passion for coding, technology, and continuous
+                        learning. I enjoy creating innovative solutions and exploring new programming languages and
+                        frameworks. In my free time, I love to read books, play video games, and explore the great
+                        outdoors.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<footer class="footer">
+    <div class="content has-text-centered">
+        <p>
+            <strong>Profile Page</strong> by <a href="#">John Doe</a>.
+        </p>
+        <p>Follow me on:</p>
+        <div class="social-icons">
+            <a href="#" class="icon is-large" style="font-size: 2rem;">
+                <i class="fab fa-facebook"></i>
+            </a>
+            <a href="#" class="icon is-large" style="font-size: 2rem;">
+                <i class="fab fa-twitter"></i>
+            </a>
+            <a href="#" class="icon is-large"  style="font-size: 2rem;">
+                <i class="fab fa-instagram"></i>
+            </a>
+        </div>
+    </div>
+</footer>
+
+
+</body>
+</html>
